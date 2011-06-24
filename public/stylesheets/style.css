@@ -42,7 +42,7 @@
 
 .top {
 	width: 960px;
-	position: fixed;
+	position: absolute;
 	float: left;
 	margin: 20px 0 0 50px;
 	z-index: 2;

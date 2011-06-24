@@ -2,11 +2,9 @@
 
 .container {
 	width: 2900px;
-	height: 900px;
+	height: 590px;
 	display: block;
 	background: url('../images/bg.png');
-	position: absolute;
-	bottom: 0;
 	margin: 0 0 0 50px;
 	float: left;
 	z-index: 1;
@@ -59,8 +57,7 @@ header ul.seeus {
 }
 
 #profilepics {
-	margin: 330px 0 0 0;
-	padding-top: 20px;
+	margin: 140px 0 0 0;
 	float: left;
 }
 
@@ -72,9 +69,9 @@ header ul.seeus {
 	float: left;
 	display: block;
 	width: 130px;
-	height: 490px;
+	height: 570px;
 	background: url('../images/test.png');
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	margin: 0 5px 0 0;
 	cursor: pointer;
 	padding: 0 0 0 10px;

@@ -62,15 +62,14 @@ header ul.seeus {
 }
 
 #profilepics .profilepic {
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
 	float: left;
 	display: block;
 	width: 130px;
 	height: 570px;
-	background: url('../images/test.png');
 	background-repeat: no-repeat;
 	margin: 0 5px 0 0;
 	cursor: pointer;
@@ -80,7 +79,7 @@ header ul.seeus {
 
 #profilepics .profilepic:hover {
 	color: #fff;
-	background: url('../images/test_hover.png');
+	background-position: -140px 0;
 	background-repeat:no-repeat;
 }
 
@@ -88,6 +87,26 @@ header ul.seeus {
 	margin-top: 470px;
 }
 
+#baker { background: url('../images/People/Stuart_Baker.png');}
+#bennet {background: url('../images/People/OliveR_Bennet.png');}
+#capita {background: url('../images/People/Manuel_Capita.png');}
+#cooper {background: url('../images/People/Jason_Cooper.png');}
+#dabin {background: url('../images/People/Gemma_Dabin.png');}
+#damigah {background: url();}
+#dolton {background: url('../images/People/Miguel_Dolton.png');}
+#grater {background: url('../images/People/Jamie_Grater.png');}
+#haque {background: url('../images/People/Mohammed_Haque.png');}
+#howman {background: url('../images/People/Chris_Howman.png');}
+#kjernes {background: url();}
+#knowland {background: url('../images/People/Joe_Knowland.png');}
+#leitch {background: url('../images/People/James_Leitch.png');}
+#mitchell {background: url('../images/People/Carly_Mitchell.png');}
+#natalucci {background: url('../images/People/Toni_Natilucci.png');}
+#robinson {background: url('../images/People/Joe_Robinson.png');}
+#tailor {background: url('../images/People/Vanisha_Tailor.png');}
+#yamashita {background: url('../images/People/Rio.png');}
+#youngman {background: url('../images/People/Faith_Youngman.png');}
+#zanbransky {background: url('../images/People/Dan_Zabransky.png');}
 
 ul {
 	font-family: Hevletica, Arial, Sans-Serif;

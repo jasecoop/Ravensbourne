@@ -126,3 +126,7 @@ li a {
 li a:hover {
 	color:#a69d92;
 }
+
+#profilepics li a {
+	text-decoration: none !important;
+}

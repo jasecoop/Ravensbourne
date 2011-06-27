@@ -5,10 +5,9 @@ html, body {
 }
 
 .container {
-	width: 3000px;
-	height: 590px;
+	width: 3400px;
+	max-height: 590px;
 	display: block;
-	background: url('../images/bg.png');
 	margin: 0 0 0 50px;
 	float: left;
 	z-index: 1;
@@ -27,7 +26,7 @@ html, body {
 	position: absolute;
 	width: 300px;
 	float: right;
-	margin: 300px 0 0 2980px;
+	margin: 300px 0 0 3200px;
 }
 
 .thankyou ul li img {
@@ -58,8 +57,8 @@ html, body {
 
 .line { margin: 0 0 0 42px; }
 .line2 { margin: 0 0 0 38px;}
-.line3 { margin: 0 0 0 2955px; }
-.line4 { margin: 0 0 0 2958px; }
+.line3 { margin: 0 0 0 3101px; }
+.line4 { margin: 0 0 0 3097px; }
 .line5 { margin: 0 0 0 960px; }
 .line6 { margin: 0 0 0 963px; }
 .line7 { margin: 0 0 0 960px; }
@@ -122,17 +121,21 @@ header ul.seeus {
 	text-decoration: none;
 }
 
+#info p {
+		padding-top: 20px;
+}
+
 #baker { background: url('../images/People/Stuart_Baker.png');}
 #bennet {background: url('../images/People/OliveR_Bennet.png');}
 #capita {background: url('../images/People/Manuel_Capita.png');}
 #cooper {background: url('../images/People/Jason_Cooper.png');}
 #dabin {background: url('../images/People/Gemma_Dabin.png');}
-#damigah {background: url();}
+#damigah {background: url('../images/People/mahya.png');}
 #dolton {background: url('../images/People/Miguel_Dolton.png');}
 #grater {background: url('../images/People/Jamie_Grater.png');}
 #haque {background: url('../images/People/Mohammed_Haque.png');}
 #howman {background: url('../images/People/Chris_Howman.png');}
-#kjernes {background: url('../images/People/Julie_Kjernes.png');}
+#kjernes {background: url('../images/People/julie.png');}
 #knowland {background: url('../images/People/Joe_Knowland.png');}
 #leitch {background: url('../images/People/James_Leitch.png');}
 #mitchell {background: url('../images/People/Carly_Mitchell.png');}
@@ -182,7 +185,7 @@ li a:hover {
 #work {
 	display: block;
 	width: 580px;
-	margin: 120px 0 0 0;
+	margin: 120px 0 40px 0;
 	float: right;
 }
 
@@ -190,7 +193,7 @@ li a:hover {
 	width: 300px;
 	display: block;
 	float: left;
-	margin: 20px 0 0 10px;
+	margin: 20px 0 40px 10px;
 }
 
 
@@ -200,7 +203,7 @@ li a:hover {
 	color: #333333;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 0.75em !important;
-}
+margin-bottom: 40px;}
 
 .linetest {
 	display: block;

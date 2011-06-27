@@ -67,7 +67,7 @@ html, body {
 
 .top {
 	width: 960px;
-	position: absolute;
+	position: fixed;
 	float: left;
 	margin: 20px 0 0 50px;
 	z-index: 2;

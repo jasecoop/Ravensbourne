@@ -1,4 +1,7 @@
 Website::Application.routes.draw do
+  
+  match '/cooper', :to => 'pages#cooper'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

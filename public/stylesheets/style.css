@@ -1,12 +1,24 @@
 
+html, body {
+	height: 100%;
+	margin: 0;
+}
 
 .container {
-	width: 2900px;
+	width: 2800px;
 	height: 590px;
 	display: block;
 	background: url('../images/bg.png');
 	margin: 0 0 0 50px;
 	float: left;
+	z-index: 1;
+}
+
+.container2 {
+	width: 960px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
 	z-index: 1;
 }
 
@@ -33,10 +45,25 @@
 	margin: 0 0 0 42px;
 }
 
+.line7, .line8 {
+	display: block;
+	width: 1px;
+	float: right;
+	position: relative;
+	bottom: 0;
+	height: 100%;
+	background-color: rgba(00,00,00,0.2);
+}
+
+
 .line { margin: 0 0 0 42px; }
 .line2 { margin: 0 0 0 38px;}
 .line3 { margin: 0 0 0 2955px; }
 .line4 { margin: 0 0 0 2958px; }
+.line5 { margin: 0 0 0 960px; }
+.line6 { margin: 0 0 0 963px; }
+.line7 { margin: 0 0 0 960px; }
+.line8 { margin: 0 0 0 963px; }
 
 .top {
 	width: 960px;
@@ -46,6 +73,9 @@
 	z-index: 2;
 }
 
+.container2 .top {
+	margin: 20px 0 0 10px;
+} 
 
 header ul.title {
 	float: left;
@@ -55,6 +85,7 @@ header ul.seeus {
 	float: left;
 	margin: 0 0 0 150px;
 }
+
 
 #profilepics {
 	margin: 140px 0 0 0;
@@ -97,7 +128,7 @@ header ul.seeus {
 #grater {background: url('../images/People/Jamie_Grater.png');}
 #haque {background: url('../images/People/Mohammed_Haque.png');}
 #howman {background: url('../images/People/Chris_Howman.png');}
-#kjernes {background: url();}
+#kjernes {background: url('../images/People/Julie_Kjernes.png');}
 #knowland {background: url('../images/People/Joe_Knowland.png');}
 #leitch {background: url('../images/People/James_Leitch.png');}
 #mitchell {background: url('../images/People/Carly_Mitchell.png');}
@@ -129,4 +160,78 @@ li a:hover {
 
 #profilepics li a {
 	text-decoration: none !important;
+}
+
+#name {
+	display: block;
+	width:380px;
+	height: 400px;
+	float: left;
+	margin-top: 120px;
+	background-color: #b5a699;}
+	
+#name ul {
+	margin:40px 0 0 13px;
+	color: #fff;
+}
+
+#work {
+	display: block;
+	width: 580px;
+	margin: 120px 0 0 0;
+	float: right;
+}
+
+#info ul {
+	width: 300px;
+	display: block;
+	float: left;
+	margin: 20px 0 0 10px;
+}
+
+
+
+#info .description {
+	margin-top:20px;
+	color: #333333;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 0.75em !important;
+}
+
+.linetest {
+	display: block;
+	width: 5px;
+	height: 100%;
+	background:url('../images/bg_profile.png');
+	float: left;
+	position: fixed;
+}
+
+.linetest2 {
+	display: block;
+	width: 5px;
+	height: 100%;
+	background:url('../images/bg_profile.png');
+	float: right;
+	margin-left:960px;
+	position: fixed;
+}
+
+.contact {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 0.75em !important;
+	margin-top: 20px !important;
+}
+
+.contact a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact a:hover {
+	color: #97897e !important;
+}
+
+.darkbrown {
+	color: #97897e !important;
 }

@@ -67,7 +67,7 @@ html, body {
 
 .top {
 	width: 960px;
-	position: fixed;
+	position: absolute;
 	float: left;
 	margin: 20px 0 0 50px;
 	z-index: 2;
@@ -116,6 +116,10 @@ header ul.seeus {
 
 #profilepics ul {
 	margin-top: 470px;
+}
+
+#profilepics a {
+	text-decoration: none;
 }
 
 #baker { background: url('../images/People/Stuart_Baker.png');}
